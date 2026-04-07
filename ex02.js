@@ -1,0 +1,11 @@
+const readline = require("readline-sync")
+
+let cliente = readline.question ("infome seu nome: ")
+let pedido = readline.question ("prato desejado : ")
+let valor = readline.questionFloat ("valor do pedido R$")
+console.log("")
+console.log("~~~~~DADOS DO PEDIDO~~~~~")
+console.log("")
+console.log(`cliente: ${cliente}`)
+console.log(`pedido: ${pedido}`)
+console.log(`valor valor do pedido: ${valor}`)
