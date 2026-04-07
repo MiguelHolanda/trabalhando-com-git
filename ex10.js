@@ -1,0 +1,22 @@
+const readline = require("readline-sync")
+let livro = 300
+
+console.log("")
+console.log("_______________________________________________________")
+console.log("")
+console.log("~~~~~~~~~~|GUIA DE LEITURA|~~~~~~~~~~~")
+console.log("")
+let lidas = readline.questionInt("quantas paginas você leu?: ")
+console.log("")
+console.log("~~~~~~~~~~~~~~~~~")
+console.log("")
+console.log(`seu livro tem ${livro} paginas`)
+console.log("")
+console.log(`você já leu ${lidas} paginas`)
+console.log("")
+let porcentagem = (lidas / livro)*100 
+console.log("~~~~~~~~~~~~~~~~~")
+console.log("")
+console.log(`você leu ${porcentagem.toFixed(2)}% do livro`)
+console.log("_______________________________________________________")
+console.log("")
